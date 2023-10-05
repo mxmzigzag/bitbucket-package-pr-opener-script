@@ -1,0 +1,12 @@
+{
+  "name": "bitbucket-package-pr-opener-script",
+  "version": "1.0.0",
+  "description": "a script that updates package.json in BitBucket repo and opens a pull request using BitBucket API.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
