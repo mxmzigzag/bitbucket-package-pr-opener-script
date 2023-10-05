@@ -119,3 +119,8 @@ async function createPullRequest() {
 
 // start
 start();
+
+// SOME TODO THOUGHTS:
+// - split script into smaller parts
+// - remove branch after pull request is merged (i think there is an option in PR creation)
+// - make variables inputing more secure and comfortable to use
