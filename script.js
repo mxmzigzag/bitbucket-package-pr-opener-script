@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// input parameters
+// input parameters (replace it with real data)
 const PACKAGE_NAME = "red-trial";
 const PACKAGE_VERSION = "1.0.25";
 const REPO_SLUG = "pr-opener";
@@ -10,7 +10,7 @@ const BRANCH_NAME = `update-package-${new Date().getTime()}`;
 // bitbucket API endpoint URL
 const API_URL = `https://api.bitbucket.org/2.0/repositories/${WORKSPACE}/${REPO_SLUG}`;
 
-// bitbucket access token
+// bitbucket access token (replace it with real and active token)
 const ACCESS_TOKEN =
   "Bearer ATCTT3xFfGN02wvifXjmkTWhGa5VdJuU2r8y-zJd1YEUG8PqIU-XSkXYUtTpfhKxCAqDaBH_Tt5UDOJp3c1qMHl741kPgtfLZMuUCAB7aMuXC35MQqMDFels1DmdTW74UPxpgGcQzudsgY_0jdhWi47NcO4oZyGWfT7GfP-98uO1Klxg2aWN9go=42A7F462";
 
